@@ -1,0 +1,14 @@
+.headerSpan {
+    font-size: 35px;
+    font-weight: 400;
+    border: 2px solid black;
+    padding: 5px 150px;
+}
+
+.header {
+    display: flex;
+    margin: 0px auto;
+    padding: 10px 0px;
+    justify-content: center;
+}
+

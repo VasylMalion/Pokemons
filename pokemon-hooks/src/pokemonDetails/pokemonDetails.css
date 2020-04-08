@@ -1,0 +1,35 @@
+.pokemonDetailsMain {
+    width: 230px;
+    height: 490px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px 0 0 50px;
+    position: fixed;
+}
+
+.tableDetails {
+    width: 200px;
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin: 0 auto;
+    align: center;
+}
+
+.imageDetails {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+td {
+    border: 2px solid black;
+    text-align: center;
+}
+
+.titleDetails {
+    display: flex;
+    font-weight: 500;
+    font-size: 26px;
+    justify-content: center;
+}

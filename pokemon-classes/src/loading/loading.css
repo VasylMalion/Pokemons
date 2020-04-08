@@ -1,0 +1,6 @@
+.loading {
+    display: grid;
+    font-size: 25px;
+    justify-content: center;
+    margin-top: 10%;
+}

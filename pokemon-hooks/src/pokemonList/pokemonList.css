@@ -1,0 +1,29 @@
+.pokemonListMain {
+    display: grid;
+    grid-template-areas:
+            "left right";
+    grid-template-columns: 55.6% 1fr;
+}
+
+.pokemonAllDetails {
+    display: grid;
+    grid-area: right;
+    justify-content: center;
+}
+
+.pokemonListMap {
+    display: inline-grid;
+    grid-area: left;
+    width: 100px;
+    padding-right: 35px;
+}
+
+.loadMore {
+    background-color: #008cff;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px 10px 10px 0px;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
